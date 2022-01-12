@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.social{
+    justify-self: flex-end;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.like{
+    cursor: pointer;
+    
+}
+
+.like:active{
+    transform:translateY(4px);
+}
+
+.count{
+    padding: 80px;
+    font-size: 20px;
+}
+h3{
+    text-align: center;
+    margin-top: 40px;
+}
