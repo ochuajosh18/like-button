@@ -11,9 +11,9 @@ like.addEventListener("click",  function (){
 });
    like.addEventListener("click", function(){
     if(count%2==0){
-        console.log("The number " +count+ " is Even");
+        console.log("The Number " +count+ " is Even");
     } else{
-        console.log("The number "+count+ " is Odd");
+        console.log("The Number "+count+ " is Odd");
     }
    });
 
