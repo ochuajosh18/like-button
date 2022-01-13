@@ -10,3 +10,11 @@ like.addEventListener("click",  function (){
     like_count.innerHTML = count;
 });
   
+like.addEventListener("click",  function (){
+    if(count%2==0){
+        console.log("The number" +count+ " is Even");
+    }
+    else{
+        console.log("The number " +count+ " is Odd");
+    }
+});
